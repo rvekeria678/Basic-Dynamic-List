@@ -9,8 +9,14 @@
     <link href="./dist/output.css" rel="stylesheet" />
 </head>
 
-<body>
-    <h1>Tailwind</h1>
+<body class="h-screen w-screen bg-green-300">
+    <div class="bg-white w-full h-1/6">
+        <form class="text-center pt-14">
+            <input type="text" class="border border-black rounded-2xl px-6 py-2 focus:outline-none" />
+            <button class="border border-black rounded-2xl px-6 py-2 hover:bg-green-300 duration-200">Add</button>
+            <button class="border border-black rounded-2xl px-6 py-2 hover:bg-red-300 duration-200">Remove</button>
+        </form>
+    </div>
 </body>
 
 </html>
